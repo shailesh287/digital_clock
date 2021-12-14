@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-color: #3D087B;
+    }
+    .main-container{
+        display: flex;
+    }
+    #grid-container1{
+        margin: 3% 0 0 10%;
+        display: grid;
+        row-gap: 20px;
+        grid-template-rows: 100px 300px 100px 100px;  
+        width: 600px;
+    }
+    .grid-item {   
+        border-radius: 10px;
+    }
+    #clock{
+        width: 200px;
+        background-image: url(./clock.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% ;
+    }
+    #left-container{
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        border-radius: 10px;
+    }
+    .left-child-container{
+        display: flex;
+        background-color: #fff;
+    }
+    #set-time{
+        width: 200px;
+    }
+    #grid-container2{
+        color: #5F0089;
+        display: grid;
+        row-gap: 30px;
+        margin: 3% 0 0 5%;
+        grid-template-rows: 100px 500px ;
+        width: 500px;
+    }
+    .grid-item2{
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    #div1{
+        background-image: url(./wake_up.png);
+        background-repeat: no-repeat;
+        background-position: center ;
+        width: 15%;
+        height: 100%;
+        
+    }
+    #left-child-container-options{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    #wakeupTimeSelector{
+        margin-left: 100px;
+        width: 30%;
+        height: 40%;
+    }
+    #right-container{
+        display: grid;
+        grid-template-rows: 100px 400px;
+    }
+    #div2{
+        background-image: url(./lunch_time.png);
+        background-repeat: no-repeat;
+        background-position: center ;
+        width: 15%;
+        height: 100%;
+    }
+    #lunchTimeSelector{
+        margin-left: 125px;
+        width: 30%;
+        height: 40%;
+    }
+    #div3{
+        background-image: url(./nap_time.png);
+            background-repeat: no-repeat;
+        background-position: center ;
+        width: 15%;
+        height: 100%;
+    }
+    #napTimeSelector{
+        margin-left: 140px;
+        width: 30%;
+        height: 40%;
+    }
+    #lb1{
+        width: 25%;
+        height: 10%;
+        position: absolute;
+        top: 80px;
+        background-color: #fff;
+        opacity: 0.7;
+        border-radius: 10px;
+        z-index: -1;
+    }
+    #digital-clock{
+        display: flex;
+        justify-content: center;
+        
+    }
+    #lb2{
+        width: 22%;
+        height: 10%;
+        position: absolute;
+        top: 90px;
+        background-color: #fff;
+        opacity: 0.3;
+        border-radius: 10px;    
+        z-index: -2;
+    }
+    #clock1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        width: 100%;
+        margin-right: 10px;
+        color: #3D087B;
+    }
+    #clock2{
+        font-size: 20px;
+        font-weight: 600;
+        color: #5F0089;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: #F6E2FF;
+        width: 15%;
+        height: 80px;
+        margin-left: 5%;
+    }
+    #clock3{
+        font-size: 20px;
+        font-weight: 600;
+        color: #5F0089;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: #F6E2FF;
+        width: 15%;
+        height: 80px;
+        margin-left: 1%;
+    }
+    #clock4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #5F0089;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: #F6E2FF;
+        width: 15%;
+        height: 80px;
+        margin-left: 1%;
+    }
+    #clock5{
+        justify-content:center;
+        align-items: center;
+        width: 10%;
+        height: 65%;
+        color: white;
+        font-size: 22px;
+       margin-left: 30px;
+        
+        border-radius: 5px;
+        display: flex;
+        float: right;
+        background-image: linear-gradient(#ae1ce4, #e148e4);
+    }
+    .colons{
+        margin-left: 1%;
+        font-size: 30px;
+        color: #5F0089;
+    }
+    #hours{
+        font-size: 40px;
+        background-color: #F6E2FF;
+        color: #8A11BF;
+    }
+    #minutes{
+        font-size: 40px;
+        color: #8A11BF;
+    }
+    #seconds{
+        font-size: 40px;
+        color: #8A11BF;
+    }
+    #lunchbottom{
+        width: 100%;
+        height: 80%;
+        background-color: white;
+        background-image: url(./ballons.png);
+        background-position: center;
+        background-size: 100% 100% ;
+        background-position: center;
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px ;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    #lunch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #8E53F0;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .vertical-line{
+        position: relative;
+        z-index: 1;
+        margin-top: 11%;
+        top: 10px;
+        left: -6.3%;
+    }
+    #set-time{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        width: 40%;
+        height: 50%;
+        background-image:linear-gradient(to right,#6E54EC, #CB52F8, #FC5EFF, #F1A7C5) ;
+    }
+    #set-time:hover{
+        background-image:linear-gradient(to right,#F1A7C5, #FC5EFF, #CB52F8, #6E54EC) ;
+    }
+    #lunch{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #lunchbotttom{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #dynamic-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -30px;
+        width: 100%;
+        height: 120%;
+        background-color: #9140B5;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+    }
